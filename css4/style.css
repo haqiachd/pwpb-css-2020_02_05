@@ -1,0 +1,61 @@
+body{
+	font-family: sans-serif;
+	background: #240229;
+	color: #fff;
+}
+
+.btn-container{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	margin: 6em;
+}
+
+.neon-btn{
+	color: var(--color);
+	text-decoration: none;
+	font-size: 8vmin;
+	margin: 0.25em;
+	padding: 0.25em 0.5em;
+	text-transform: uppercase;
+	transition: color 0.5s ease-out, text-shadow 0.5s ease-out;
+	transform: translate3d(0, 0, 0);
+}
+
+.neon-btn:hover{
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 10px #fff,
+				 0 0 20px #fff,
+				 0 0 30px #fff,
+				 0 0 40px  var(--color),
+				 0 0 70px  var(--color),
+				 0 0 80px  var(--color),
+				 0 0 100px var(--color),
+				 0 0 150px var(--color);
+	transition: color 0.5s ease-out, text-shadow 0.1s ease-out;
+	animation: neon 0.5s ease-in-out 0.5s infinite alternate;
+}
+
+@keyframes neon{
+	to{
+		text-shadow: 0 0 5px #fff,
+					 0 0 10px #fff,
+					 0 0 15px #fff,
+					 0 0 20px var(--color),
+					 0 0 35px var(--color),
+					 0 0 40px var(--color),
+					 0 0 50px var(--color),
+					 0 0 75px var(--color);
+
+	}
+}
+
+
+
+
+
+
+
+

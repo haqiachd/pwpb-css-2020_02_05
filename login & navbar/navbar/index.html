@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navigation bar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+
+	<div class="eyes">
+		<div class="eye">
+			<div class="ball"></div>
+		</div>
+
+		<div class="eye">
+			<div class="ball"></div>
+		</div>
+	</div>
+
+	<script>
+		var balls = document.getElementsByClassName("ball");
+		document.onmousemove = function(){
+			var x = event.clientX * 100 / window.innerWidth + "%";
+			var y = event.clientY * 100 / window.innerHeight + "%";
+		
+			for(var i=0; i<2; i++){
+				balls[i].style.left = x;
+				balls[i].style.top = y;
+				balls[i].style.transform = "translate(-"+x+", -"+y+")";
+			}
+		}
+
+	</script>
+
+	<div>
+		<header>
+			<div class="logo">Bara.Arqi</div>
+			<nav>
+				<ul>
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="#">Css Effects</a>
+						<ul>
+							<li><a href="..\..\css1\index.html" >Css Effects 1</a></li>
+							<li><a href="..\..\css2\index.html" >Css Effects 2</a></li>
+							<li><a href="..\..\css3\index.html" >Css Effects 3</a></li>
+							<li><a href="..\..\css4\index.html" >Css Effects 4</a></li>
+							<li><a href="..\..\css5\index.html" >Css Effects 5</a></li>
+							<li><a href="..\..\css6\index.html" >Css Effects 6</a></li>
+							<li><a href="..\..\css7\index.html" >Css Effects 7</a></li>
+							<li><a href="..\..\css8\index.html" >Css Effects 8</a></li>
+							<li><a href="..\..\css9\index.html" >Css Effects 9</a></li>
+							<li><a href="..\..\css10\index.html" >Css Effects 10</a></li>
+							<li><a class="lkc2" href="..\..\css11\index.html">Css Effects 11</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+
+
+
+</body>
+</html>

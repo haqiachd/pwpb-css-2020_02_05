@@ -1,0 +1,37 @@
+23 Januari 2020 -> (3 commit)
+ - css8/smoke | 19:43
+ - css8/style | 19:57
+ - css6/style | 21:32
+25 Januari 2020 -> (3 commit)
+ - css9/index | 14:36
+ - css9/style | 21:14
+ - css9/wave | 22:39
+26 Januari 2020 -> (2 commit)
+ - css10/style | 18:11
+ - css10/index | 20:16
+27 Januari 2020 -> (2 commit)
+ - css2/style :14:36
+ - css2/index : 20:44
+28 Januari 2020 -> (2 commit)
+ - css7/style | 14:19
+ - css7/index | 19:41
+30 Januari 2020 -> (4 commit)
+ - css3/index | 7:30
+ - css3/style | 7:31
+ - login/index | 20:25
+ - login/syle | 20:47
+1 Februari 2020 -> (6 commit)
+ - navbar/style | 6:57
+ - navbar/index | 7:09
+ - css4/style | 22:28
+ - navbar/navbar | 23:24
+ - css5/style | 23:56
+2 Februari 2020 -> (9 commit)
+ - css11/style | 6:49
+ - css5/index | 7:40
+ - css6/index | 14:10
+ - css1/index | 14:20
+ - css11/index | 14:34
+ - css8/index | 14:36
+ - css1/style | 14:40
+ - css4/index | 14:46
