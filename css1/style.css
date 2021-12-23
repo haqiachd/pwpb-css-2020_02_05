@@ -24,6 +24,27 @@ body
 	overflow: hidden;
 	box-sizing: border-box;
 }
+/* .btn
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 180px;
+	height: 60px;
+	color: #fff;
+	background: #262626;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 60px;
+	font-family: verdana;
+	font-size: 24px;
+	letter-spacing; 5px;
+	transition: .5s;
+	overflow: hidden;
+	box-sizing: border-box;
+} */
 .btn:before
 {
 	content: '';
